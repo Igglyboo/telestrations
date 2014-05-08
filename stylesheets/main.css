@@ -1,0 +1,14 @@
+body{
+    background: #000000;
+    color: #00FF00;
+    font-family: monospace;"
+}
+
+#refresh{
+    border:2px solid #00FF00;
+    border-radius: 10px;
+    background: #000000;
+    color: #00FF00;
+    outline: none;
+    cursor: pointer;
+}

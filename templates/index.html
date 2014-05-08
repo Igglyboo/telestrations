@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gauntlet Dark Legacy</title>
+    <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+</head>
+<body>
+    <pre>
+  _____   _____    ______   ______   _   _    __          __  _____   ______             _____    _____
+ / ____| |  __ \  |  ____| |  ____| | \ | |   \ \        / / |_   _| |___  /     /\     |  __ \  |  __ \
+| |  __  | |__) | | |__    | |__    |  \| |    \ \  /\  / /    | |      / /     /  \    | |__) | | |  | |
+| | |_ | |  _  /  |  __|   |  __|   | . ` |     \ \/  \/ /     | |     / /     / /\ \   |  _  /  | |  | |
+| |__| | | | \ \  | |____  | |____  | |\  |      \  /\  /     _| |_   / /__   / ____ \  | | \ \  | |__| |
+ \_____| |_|  \_\ |______| |______| |_| \_|       \/  \/     |_____| /_____| /_/    \_\ |_|  \_\ |_____/
+    </pre>
+    {% for word in word_list %}
+        <p>{{ forloop.counter }}) {{ word }}</p>
+    {% endfor %}
+    {{ hat }}
+    <form>
+        <input id="refresh" type="submit" value="Needs Words Badly">
+    </form>
+</body>
+</html>
