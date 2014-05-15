@@ -4,6 +4,7 @@ import os
 from google.appengine.ext.webapp import template
 from word_generator import words
 
+
 class Telestrations(webapp2.RequestHandler):
     def get(self):
         template_values = {'word_list': words(6)}
